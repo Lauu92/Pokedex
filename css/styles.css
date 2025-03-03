@@ -29,6 +29,7 @@ td {
     width: 25%;
     border-collapse: collapse;
     text-align: center;
+    font-size: 3rem;
 }
 
 
@@ -50,24 +51,53 @@ li {
     background-color: red;
 }
 
+.inicio:hover {
+    background-color:magenta;
+    transition-duration: 2s;
+}
+
 .pokedex {
     background-color: black;
+}
+
+.pokedex:hover {
+    background-color:magenta;
+    transition-duration: 2s;
 }
 
 .videojuegos {
     background-color:chocolate
 }
 
+.videojuegos:hover {
+    background-color:magenta;
+    transition-duration: 2s;
+}
+
 .juego {
     background-color: darkgreen;
+}
+
+.juego:hover {
+    background-color:magenta;
+    transition-duration: 2s;
 }
 
 .dibujos {
     background-color: goldenrod;
 }
+.dibujos:hover {
+    background-color:magenta;
+    transition-duration: 2s;
+}
 
 .eventos {
     background-color: yellow;
+}
+
+.eventos:hover {
+    background-color:magenta;
+    transition-duration: 2s;
 }
 
 /*Tipos pokemon*/
@@ -77,6 +107,10 @@ li {
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.bulbasur:hover {
+    background-color: fuchsia;
 }
 
 .ivysaur {
